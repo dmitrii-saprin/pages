@@ -1,0 +1,32 @@
+site_name: Dmitrii Notes
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Главная: index.md
+  - Security:
+      - Обзор: Security/index.md
+  - TODO:
+      - Обзор: TODO/index.md
+  - Ansible:
+      - Обзор: ansible/index.md
+  - Articles:
+      - Обзор: articles/index.md
+  - TypeScript:
+      - Обзор: typescript/index.md
+  - Vue 3:
+      - Обзор: vue3/index.md
+  - Разное:
+      - CI/CD: CI-CD.md
+      - Abbreviations: abbreviation.md
+      - CV questions: 1_cv_questions.md
+
+plugins:
+  - search
