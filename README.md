@@ -1,1 +1,1 @@
-https://dmitrii-saprin.github.io/pages/
+https://github.com/dmitrii-saprin/pages/wiki
